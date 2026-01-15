@@ -1,1 +1,2 @@
-# a blog webistegit 
+# a blog webiste
+# developed using html css and javascriptgit 
