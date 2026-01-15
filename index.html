@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insight Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <h1 class="logo">Insight</h1>
+    <div class="nav-right">
+        <input type="text" id="search" placeholder="Search blogs...">
+        <button id="toggleMode">🌙</button>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <h2>Ideas • Knowledge • Stories</h2>
+    <p>A modern blog for curious minds</p>
+</section>
+
+<!-- Blogs -->
+<section class="blogs" id="blogList">
+    <div class="blog-card">
+        <span class="tag">Web</span>
+        <h3>Mastering HTML, CSS & JS</h3>
+        <p class="date">Jan 15, 2026</p>
+        <p class="text">
+            Learn how modern websites are built using core frontend technologies.
+        </p>
+        <button onclick="readMore(this)">Read More</button>
+    </div>
+
+    <div class="blog-card">
+        <span class="tag">Career</span>
+        <h3>Becoming a Better Developer</h3>
+        <p class="date">Jan 18, 2026</p>
+        <p class="text">
+            Improve problem solving, consistency, and real-world coding skills.
+        </p>
+        <button onclick="readMore(this)">Read More</button>
+    </div>
+
+    <div class="blog-card">
+        <span class="tag">Tips</span>
+        <h3>Productivity for Students</h3>
+        <p class="date">Jan 20, 2026</p>
+        <p class="text">
+            Simple habits that help students stay focused and stress-free.
+        </p>
+        <button onclick="readMore(this)">Read More</button>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Insight Blog | Designed by You</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
